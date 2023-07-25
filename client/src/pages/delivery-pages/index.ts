@@ -1,0 +1,8 @@
+export { DeliveryLayout } from './delivery-layout'
+export { HomeDeliveryPage } from './home-delivery-page'
+export { CurrentOrderDeliveryMobilePage } from './current-order-delivery-mobile-page'
+export { OrdersDeliveryPage } from './orders-delivery-page'
+export { ActiveOrderDeliveryMobilePage } from './active-order-delivery-mobile-page'
+export { HistoryDeliveryPage } from './history-delivery-page'
+export { HistoryOrderDeliveryMobilePage } from './history-order-delivery-mobile-page'
+export { DirectionPage } from './direction-mobile-page'
