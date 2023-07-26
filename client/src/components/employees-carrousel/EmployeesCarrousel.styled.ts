@@ -5,6 +5,6 @@ export const BoxWrapper = styled(Box)`
   background-color: unset;
   display: inline-block;
   width: 85vw;
-  min-height: 165px;
+  min-height: 180px;
   user-select: none;
 `
