@@ -15,10 +15,12 @@ export const StackWrapper = styled(
   Stack,
   withProps('isActive'),
 )<StackWrapperProps>(
-  ({ isActive }) => `flex-direction: column;
+  ({ isActive }) => `
+flex-direction: column;
 cursor: pointer;
 opacity: ${isActive ? 1 : 0.64} ;
-align-items: center;`,
+align-items: center;
+`,
 )
 
 export const Img = styled(
@@ -30,5 +32,7 @@ export const Img = styled(
   border-radius: 50%;
   width:  ${isActive ? '124px' : '100px'};
   height: ${isActive ? '124px' : '100px'};
-  object-fit: cover;`,
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+  user-select: none;`,
 )

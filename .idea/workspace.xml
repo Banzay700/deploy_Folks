@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4577e817-ebce-4caf-ada5-63e9f1af422a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UI/snackbar-for-HR/SnackbarForHR.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UI/snackbar-for-HR/SnackbarForHR.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/employees-carrousel/employees-carrousel-item/EmployeesCarrouselItem.styled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/employees-carrousel/employees-carrousel-item/EmployeesCarrouselItem.styled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/admin-pages/admin-layout/adminLayout.utils.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin-pages/admin-layout/adminLayout.utils.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2T41NcZtRGk0VCRtx1PQVWZlH5f" />
   <component name="ProjectViewState">
@@ -25,10 +33,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Banzay\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\dev\\deployment\\folks\\client\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -42,6 +53,11 @@
       <updated>1690287501325</updated>
       <workItem from="1690287505983" duration="64000" />
       <workItem from="1690287766985" duration="22000" />
+      <workItem from="1690288123400" duration="304000" />
+      <workItem from="1690288455305" duration="835000" />
+      <workItem from="1690297322043" duration="632000" />
+      <workItem from="1690304056197" duration="3373000" />
+      <workItem from="1690359396304" duration="91000" />
     </task>
     <servers />
   </component>

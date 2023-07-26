@@ -5,15 +5,14 @@ const SnackbarForHR: FC = () => {
   const message = () => {
     return (
       <>
-        <Typography variant="h3">Hello!</Typography>
         <Typography variant="h3">A few comments:</Typography>
         <Typography variant="h3">
-          - It is better to start exploring the app from the waiter role
+          - It is better to start exploring the app from the administrator role
         </Typography>
         <Typography variant="h3">
           - The delivery service interface looks better on mobile
         </Typography>
-        <Typography variant="h3">Password: 123 (for all roles)</Typography>
+        <Typography variant="h3"> - password: 123 (for all roles)</Typography>
       </>
     )
   }
@@ -21,7 +20,7 @@ const SnackbarForHR: FC = () => {
   return (
     <Snackbar
       anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
-      transitionDuration={{ enter: 2500 }}
+      transitionDuration={{ enter: 2000 }}
       message={message()}
       open
     />

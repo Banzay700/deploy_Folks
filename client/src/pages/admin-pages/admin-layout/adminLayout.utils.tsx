@@ -4,7 +4,7 @@ import { Icon } from 'assets'
 export const navLink: LinkItemType[] = [
   {
     link: `/home`,
-    title: 'Food',
+    title: 'Waiter',
     icon: <Icon.Dishes style={{ marginRight: '11px', width: '24px', height: '24px' }} />,
   },
   {
