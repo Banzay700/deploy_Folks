@@ -39,7 +39,7 @@ export const prepareStatisticLabelData = (data: StatisticLabelsResponseType) => 
   return {
     title,
     value: formatLabelValue,
-    percentage: `${percentage}%`,
+    percentage: `${Math.round(percentage)}%`,
     compareString,
     period,
   }
