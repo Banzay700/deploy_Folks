@@ -19,7 +19,14 @@ const EmployeesCarrousel: FC<EmployeesCarrouselProps> = (props) => {
     return employeesData.map((item) => {
       const isActive = chosenEmployee === item.id
 
-      return <EmployeesCarrouselItem />
+      return (
+        <EmployeesCarrouselItem
+          key={item.id}
+          {...item}
+          onClick={handleSetActiveSlide}
+          isActive={isActive}
+        />
+      )
     })
   }
 
